@@ -10,7 +10,7 @@ Create your nginx templates in an automated way
 {
   "100.0.0": {
     "variants": [
-      "8.1-buster-fpm"
+      "8.1-bullseye-fpm"
     ],
     "version": "100.0.0"
   }
