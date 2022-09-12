@@ -21,6 +21,13 @@ https://github.com/aurelien-andre-weldom/ops-php
 }
 ```
 
+### Requirements
+
+```shell
+# Install JQ
+sudo apt-get install jq
+```
+
 ### Usage
 
 Edit dockerfile.template
