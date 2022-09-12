@@ -10,7 +10,7 @@ Create your nginx templates in an automated way
 {
   "100.0.0": {
     "variants": [
-      "8.1-bullseye-fpm"
+      "8.1-bullseye-slim-fpm"
     ],
     "version": "100.0.0"
   }
@@ -45,7 +45,7 @@ docker run -it --rm \
 --name ops-nginx \
 -p 9001:9001 \
 -p 9080:9080 \
-ops-nginx/nginx:100.0.0-8.1-bullseye-fpm
+ops-nginx/nginx:100.0.0-8.1-bullseye-slim-fpm
 ```
 
 @see 
