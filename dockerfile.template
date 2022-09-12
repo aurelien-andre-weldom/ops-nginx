@@ -41,6 +41,8 @@ RUN set -eux; \
 echo "docker-entrypoint-nginx.sh" >> /docker-entrypoint.list; \
 echo "docker-entrypoint-nginx-sites.sh" >> /docker-entrypoint.list
 
+WORKDIR /var/www
+
 ENTRYPOINT ["docker-entrypoint.sh"]
 
 STOPSIGNAL SIGQUIT
