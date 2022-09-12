@@ -44,9 +44,12 @@ NGINX_WORKER_CONNECTIONS=500
 docker run -it --rm \
 --name ops-nginx \
 -p 9001:9001 \
--p 80:80 \
--p 443:443 \
+-p 9080:9080 \
 ops-nginx/nginx:100.0.0-8.1-buster-fpm
 ```
 
-@see http://localhost:9001 && http://localhost
+@see 
+
+http://localhost:9001
+
+http://localhost:9080
