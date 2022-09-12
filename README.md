@@ -2,7 +2,11 @@
 
 Create your nginx templates in an automated way 
 
-@depends : https://github.com/aurelien-andre-weldom/ops-php
+@depends : 
+
+https://github.com/aurelien-andre-weldom/ops-debian
+
+https://github.com/aurelien-andre-weldom/ops-php
 
 ### Terraform Versions
 
