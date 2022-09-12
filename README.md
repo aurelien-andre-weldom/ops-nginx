@@ -45,7 +45,7 @@ docker run -it --rm \
 --name ops-nginx \
 -p 9001:9001 \
 -p 9080:9080 \
-ops-nginx/nginx:100.0.0-8.1-buster-fpm
+ops-nginx/nginx:100.0.0-8.1-bullseye-fpm
 ```
 
 @see 
