@@ -49,4 +49,4 @@ docker run -it --rm \
 ops-nginx/nginx:100.0.0-8.1-buster-fpm
 ```
 
-@see http://localhost:9001
+@see http://localhost:9001 && http://localhost
